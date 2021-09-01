@@ -21,8 +21,10 @@ function Nav() {
         <div className={`nav ${show && "nav_black"}`}>
             <img className="nav__logo" src={logo} alt="Trailflix Logo" />
             <div className="nav__search">
-                <input type="text" />
-                <button>Search</button>
+                <form className="middle__search">
+                    <input type="text" placeholder="Search Trailers.." />
+                    <button type="submit" value="SEARCH" className="button">Search</button>
+                </form>
             </div>
         </div>
     )

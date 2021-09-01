@@ -3,7 +3,7 @@
   top: 0;
   width: 100%;
   padding: 20px;
-  height: 30px;
+  height: 40px;
   z-index: 1;
   display: flex;
   justify-content: space-between;
@@ -12,17 +12,38 @@
   transition-timing-function: ease-in;
   transition: all 0.5s;
 }
+
 .nav_black {
   background-color: #111;
 }
 .nav__logo {
-  width: 150px;
+  width: 12.5%;
   position: fixed;
-  left: 20px;
+  left: 16px;
   object-fit: contain;
 }
-
+.middle__search {
+  justify-content: center;
+  padding: 10px;
+  border-radius: 30px;
+  width: fit-content;
+  background-color: brown;
+}
+input {
+  border-radius: 20px;
+  width: 300px;
+  height: 30px;
+}
+.button {
+  border-radius: 15px;
+  width: 70px;
+  height: 30px;
+  font-family: Francois One;
+  font-style: normal;
+  font-weight: normal;
+}
 .nav__search {
   position: fixed;
-  right: 20px;
+  top: 10px;
+  right: 0;
 }
